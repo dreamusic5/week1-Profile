@@ -8,7 +8,7 @@
     margin-bottom: 24px;
 }
 .mb-4{
-    margin-bottom: 36px;
+    margin-bottom: 32px;
 }
 .mb-5{
     margin-bottom: 40px;
@@ -19,17 +19,23 @@
 .mb-7{
     margin-bottom: 72px;
 }
-.mb-8{
-    margin-bottom: 32px;
-}
 .mr-2{
     margin-right: 24px;
+}
+
+.m-1{
+    margin-right: 12px;
+    margin-left: 12px;
 }
 
 body{
     font-size: 24px;
     line-height: 36px;
-    font-family: "Noto Sans TC", "Arial" ;
+    font-family: "sans-serif", "Arial" ;
+}
+
+img{
+    vertical-align: center;
 }
 
 .container{
@@ -56,25 +62,25 @@ body{
     padding-bottom: 8px;
     border-bottom: 1px solid #000;
     span{
-        color: #A00404;
         font-size: 24px;
         line-height: 32px;
         margin-left: 16px;
     }
+}
+.subTitle-red{
+    color: #A00404;
+}
+.subTitle-white{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
 }
 
 .skills{
     max-width: 996px;
     margin: 0 auto;
     padding: 24px 0px 36px 0px;
-    .whiteTitle{
-        display: flex;
-        justify-content: center;
-        border-bottom: 1px solid #fff;
-        span{
-            color: #fff;
-        }
-    }
     .skillsItem{
         border-left: 1px solid #96A9C4 ;
         padding-left: 24px;
@@ -92,12 +98,9 @@ body{
 .contact{
     padding: 24px 0px 36px 0px;
     text-align: center;
-    .whiteTitle{
-        display: flex;
-        justify-content: center;
-        border-bottom: 1px solid #fff;
-        span{
-            color: #fff;
+    .contact-social{
+        &:hover{
+            border-bottom:1px solid white;
         }
     }
 }
